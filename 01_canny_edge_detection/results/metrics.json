@@ -1,0 +1,23 @@
+{
+  "circle.jpg": {
+    "edge_pixels_ours": 1454,
+    "edge_pixels_opencv": 1450,
+    "precision_vs_opencv": 1.0,
+    "recall_vs_opencv": 1.0,
+    "f1_vs_opencv": 1.0
+  },
+  "wallLahoreFortBBC.jpg": {
+    "edge_pixels_ours": 33073,
+    "edge_pixels_opencv": 25725,
+    "precision_vs_opencv": 0.769,
+    "recall_vs_opencv": 0.974,
+    "f1_vs_opencv": 0.859
+  },
+  "Img1.jpg": {
+    "edge_pixels_ours": 8400,
+    "edge_pixels_opencv": 8204,
+    "precision_vs_opencv": 1.0,
+    "recall_vs_opencv": 1.0,
+    "f1_vs_opencv": 1.0
+  }
+}
