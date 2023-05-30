@@ -1,0 +1,42 @@
+{
+  "tiny_image_knn": 0.227,
+  "bovw_k20": {
+    "knn": 0.293,
+    "linear_svm": 0.387
+  },
+  "bovw_k50": {
+    "knn": 0.42,
+    "linear_svm": 0.413
+  },
+  "bovw_k100": {
+    "knn": 0.38,
+    "linear_svm": 0.467
+  },
+  "bovw_k200": {
+    "knn": 0.433,
+    "linear_svm": 0.48
+  },
+  "bovw_k400": {
+    "knn": 0.42,
+    "linear_svm": 0.527
+  },
+  "best_vocab_size": 400,
+  "chance": 0.067,
+  "per_class_recall_best": {
+    "Bedroom": 0.2,
+    "Coast": 0.6,
+    "Forest": 0.8,
+    "Highway": 0.9,
+    "Industrial": 0.3,
+    "InsideCity": 0.5,
+    "Kitchen": 0.2,
+    "LivingRoom": 0.2,
+    "Mountain": 0.8,
+    "Office": 0.7,
+    "OpenCountry": 0.3,
+    "Store": 0.5,
+    "Street": 0.9,
+    "Suburb": 0.6,
+    "TallBuilding": 0.4
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "gradient_check_max_relative_error": {
+    "gamma=0.0": 1.09e-09,
+    "gamma=2.0": 2.53e-10
+  },
+  "digits": {
+    "train": 1347,
+    "test": 450,
+    "numpy_cnn_test_acc": 0.9778,
+    "pytorch_same_arch_test_acc": 0.9711,
+    "numpy_train_seconds": 4.6,
+    "pytorch_train_seconds": 1.1
+  },
+  "imbalance_experiment_5_seeds": {
+    "train_samples": 1101,
+    "gamma=0.0": {
+      "minority_recall(3,8)": 0.682,
+      "overall_acc": 0.927
+    },
+    "gamma=2.0": {
+      "minority_recall(3,8)": 0.687,
+      "overall_acc": 0.929
+    }
+  }
+}

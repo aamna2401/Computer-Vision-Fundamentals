@@ -1,0 +1,10 @@
+numpy>=2.0
+scipy
+matplotlib
+pandas
+opencv-contrib-python-headless>=4.9
+scikit-learn
+scikit-image
+torch
+torchvision
+torch-geometric
