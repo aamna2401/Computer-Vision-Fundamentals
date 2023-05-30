@@ -1,5 +1,7 @@
 # 03 · Bag of visual words scene recognition
 
+> Completed: 2021-03-09T14:45:00Z (March 2021)
+
 Classify a photo as *kitchen, forest, street…* without a neural network: describe it as a histogram of "visual words".
 
 ## Pipeline

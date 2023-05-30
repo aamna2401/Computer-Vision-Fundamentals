@@ -32,15 +32,15 @@
   },
   "sift_ransac": {
     "keypoints": [
-      2476,
-      3031
+      836,
+      819
     ],
-    "ratio_test_matches": 531,
-    "ransac_inliers": 511,
-    "inlier_ratio": 0.962,
-    "mean_homography_error_px": 0.107
+    "ratio_test_matches": 208,
+    "ransac_inliers": 153,
+    "inlier_ratio": 0.736,
+    "mean_homography_error_px": 0.152
   },
-  "viola_jones_faces_found": 1,
+  "viola_jones_faces_found": 2,
   "video": {
     "frames": 100,
     "foreground_fraction_mean_after_warmup": 0.0365

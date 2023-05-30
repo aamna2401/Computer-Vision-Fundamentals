@@ -6,12 +6,12 @@
     "recall_vs_opencv": 1.0,
     "f1_vs_opencv": 1.0
   },
-  "wallLahoreFortBBC.jpg": {
-    "edge_pixels_ours": 33073,
-    "edge_pixels_opencv": 25725,
-    "precision_vs_opencv": 0.769,
-    "recall_vs_opencv": 0.974,
-    "f1_vs_opencv": 0.859
+  "brick_wall.png": {
+    "edge_pixels_ours": 18951,
+    "edge_pixels_opencv": 18460,
+    "precision_vs_opencv": 0.976,
+    "recall_vs_opencv": 1.0,
+    "f1_vs_opencv": 0.988
   },
   "Img1.jpg": {
     "edge_pixels_ours": 8400,

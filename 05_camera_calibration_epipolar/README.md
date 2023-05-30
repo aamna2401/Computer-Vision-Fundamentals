@@ -1,5 +1,7 @@
 # 05 · Camera calibration and two-view geometry
 
+> Completed: 2021-05-11T10:25:00Z (May 2021)
+
 How a 3-D point becomes a pixel, and how two pixels from two views constrain each other.
 
 ## Models

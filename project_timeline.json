@@ -1,0 +1,80 @@
+{
+  "project_years": {
+    "classical_work": "2021",
+    "cnn_work": "2022",
+    "face_recognition": "2022",
+    "gcn_work": "2023"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "name": "Canny edge detection from scratch",
+      "year": 2021,
+      "month": "January",
+      "completed_at": "2021-01-18T09:30:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Harris corner detection from scratch",
+      "year": 2021,
+      "month": "February",
+      "completed_at": "2021-02-14T11:15:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Bag of visual words scene recognition",
+      "year": 2021,
+      "month": "March",
+      "completed_at": "2021-03-09T14:45:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Lane detection with classical computer vision",
+      "year": 2021,
+      "month": "April",
+      "completed_at": "2021-04-22T08:05:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Camera calibration and two-view geometry",
+      "year": 2021,
+      "month": "May",
+      "completed_at": "2021-05-11T10:25:00Z"
+    },
+    {
+      "id": 6,
+      "name": "Single-image rectification with homographies",
+      "year": 2021,
+      "month": "June",
+      "completed_at": "2021-06-17T13:20:00Z"
+    },
+    {
+      "id": 7,
+      "name": "Classical CV toolbox",
+      "year": 2021,
+      "month": "July",
+      "completed_at": "2021-07-06T09:10:00Z"
+    },
+    {
+      "id": 8,
+      "name": "A CNN in pure NumPy (forward and backward)",
+      "year": 2022,
+      "month": "August",
+      "completed_at": "2022-08-19T15:40:00Z"
+    },
+    {
+      "id": 9,
+      "name": "Face recognition on CelebA: classification and Siamese verification",
+      "year": 2022,
+      "month": "November",
+      "completed_at": "2022-11-28T12:00:00Z"
+    },
+    {
+      "id": 10,
+      "name": "Graph convolution networks, from Cora to skeleton sequences (ST-GCN)",
+      "year": 2023,
+      "month": "May",
+      "completed_at": "2023-05-30T16:30:00Z"
+    }
+  ]
+}

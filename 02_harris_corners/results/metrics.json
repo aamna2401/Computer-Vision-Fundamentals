@@ -8,25 +8,25 @@
       "ours": 32,
       "opencv_raw_pixels": 825
     },
-    "wallLahoreFortBBC.jpg": {
-      "ours": 397,
-      "opencv_raw_pixels": 12528
+    "brick_wall.png": {
+      "ours": 218,
+      "opencv_raw_pixels": 3390
     }
   },
   "threshold_sweep_facade": {
-    "0.001": 665,
-    "0.01": 523,
-    "0.05": 224,
-    "0.2": 64
+    "0.001": 221,
+    "0.01": 218,
+    "0.05": 217,
+    "0.2": 172
   },
   "repeatability": {
     "rotation_0deg": 1.0,
-    "rotation_15deg": 0.981,
-    "rotation_30deg": 0.963,
-    "rotation_45deg": 0.943,
-    "rotation_90deg": 0.969,
-    "brightness_x0.5": 1.0,
-    "brightness_x0.75": 1.0,
-    "brightness_x1.5": 0.76
+    "rotation_15deg": 0.914,
+    "rotation_30deg": 0.894,
+    "rotation_45deg": 0.864,
+    "rotation_90deg": 0.995,
+    "brightness_x0.5": 0.991,
+    "brightness_x0.75": 0.995,
+    "brightness_x1.5": 0.959
   }
 }

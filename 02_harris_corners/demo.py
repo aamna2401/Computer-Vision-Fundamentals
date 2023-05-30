@@ -33,7 +33,7 @@ def draw(im, pts, color=(0, 0, 255)):
 # 1. detections on three images, ours vs OpenCV
 fig, ax = plt.subplots(2, 3, figsize=(13, 8.5))
 counts = {}
-for j, name in enumerate(["Img1.jpg", "Img3.png", "wallLahoreFortBBC.jpg"]):
+for j, name in enumerate(["Img1.jpg", "Img3.png", "brick_wall.png"]):
     im = load(name)
     gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
     pts, _ = detect_corners(gray, rel_threshold=0.02)
@@ -46,7 +46,7 @@ for a in ax.ravel(): a.axis("off")
 plt.tight_layout(); plt.savefig(OUT / "harris_detections.png", dpi=110); plt.close()
 
 # 2. threshold sweep on a textured facade (the clean checkerboard always gives its 49 interior corners)
-im = load("wallLahoreFortBBC.jpg", 400); gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
+im = load("brick_wall.png", 400); gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
 fig, ax = plt.subplots(1, 4, figsize=(16, 4.2))
 sweep = {}
 for a, t in zip(ax, [0.001, 0.01, 0.05, 0.2]):
@@ -56,7 +56,7 @@ for a, t in zip(ax, [0.001, 0.01, 0.05, 0.2]):
 plt.tight_layout(); plt.savefig(OUT / "harris_threshold_sweep.png", dpi=110); plt.close()
 
 # 3. repeatability: detect, transform image, detect again, map back, count matches within 3 px
-im = load("wallLahoreFortBBC.jpg", 400); gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
+im = load("brick_wall.png", 400); gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
 h, w = gray.shape
 base, _ = detect_corners(gray, rel_threshold=0.02)
 base = base[:300]

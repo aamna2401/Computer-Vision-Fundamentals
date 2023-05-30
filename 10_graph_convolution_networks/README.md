@@ -1,5 +1,7 @@
 # 10 · Graph convolution networks, from Cora to skeleton sequences (ST-GCN)
 
+> Completed: 2023-05-30T16:30:00Z (May 2023)
+
 Images are grids; many vision signals are graphs: a human skeleton, a scene graph, text components in a scene (the idea behind the Urdu text-detection thesis). Graph convolution is the layer that lets a network use that structure.
 
 ## Architecture

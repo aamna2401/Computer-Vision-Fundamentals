@@ -19,7 +19,7 @@ rgb = lambda im: cv2.cvtColor(im, cv2.COLOR_BGR2RGB)
 rng = np.random.default_rng(0)
 metrics = {}
 
-wall = cv2.imread(str(DATA / "images" / "wallLahoreFortBBC.jpg"))
+wall = cv2.imread(str(DATA / "images" / "brick_wall.png"))
 wall = cv2.resize(wall, (640, int(640 * wall.shape[0] / wall.shape[1])))
 gray = cv2.cvtColor(wall, cv2.COLOR_BGR2GRAY)
 
@@ -95,7 +95,7 @@ plt.title(f"SIFT + RANSAC: {int(mask.sum())}/{len(good)} inliers, homography err
 plt.tight_layout(); plt.savefig(OUT / "sift_ransac_matches.png", dpi=100); plt.close()
 
 # 5. Viola-Jones face detection
-face_img = cv2.imread(str(DATA / "images" / "index.jpeg"))
+face_img = cv2.imread(str(DATA / "images" / "astronaut.png"))
 casc = cv2.CascadeClassifier(str(DATA / "images" / "haarcascade_frontalface_alt.xml"))
 faces = casc.detectMultiScale(cv2.cvtColor(face_img, cv2.COLOR_BGR2GRAY), 1.1, 4)
 for x, y, fw, fh in faces:

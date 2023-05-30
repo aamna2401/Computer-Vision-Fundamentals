@@ -28,7 +28,7 @@ def agreement(a, b, tol=1):
 
 
 metrics = {}
-for name in ["circle.jpg", "wallLahoreFortBBC.jpg", "Img1.jpg"]:
+for name in ["circle.jpg", "brick_wall.png", "Img1.jpg"]:
     gray = cv2.imread(str(DATA / name), cv2.IMREAD_GRAYSCALE)
     if max(gray.shape) > 600:
         gray = cv2.resize(gray, None, fx=600 / max(gray.shape), fy=600 / max(gray.shape))
@@ -49,7 +49,7 @@ for name in ["circle.jpg", "wallLahoreFortBBC.jpg", "Img1.jpg"]:
     plt.close()
 
 # effect of sigma on the wall image
-gray = cv2.imread(str(DATA / "wallLahoreFortBBC.jpg"), cv2.IMREAD_GRAYSCALE)
+gray = cv2.imread(str(DATA / "brick_wall.png"), cv2.IMREAD_GRAYSCALE)
 gray = cv2.resize(gray, None, fx=600 / max(gray.shape), fy=600 / max(gray.shape))
 fig, ax = plt.subplots(1, 4, figsize=(16, 4.2))
 ax[0].imshow(gray, cmap="gray"); ax[0].set_title("input")

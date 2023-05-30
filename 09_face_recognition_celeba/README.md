@@ -1,5 +1,7 @@
 # 09 · Face recognition on CelebA: classification and Siamese verification
 
+> Completed: 2022-11-28T12:00:00Z (November 2022)
+
 Two different questions about the same data:
 - **Identification (closed set):** which of these 30 known people is this? → a classifier.
 - **Verification (open set):** are these two photos the same person, even for people never seen in training? → learn an *embedding* and compare distances.

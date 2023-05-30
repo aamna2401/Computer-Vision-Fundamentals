@@ -1,5 +1,7 @@
 # 04 · Lane detection with classical computer vision
 
+> Completed: 2021-04-22T08:05:00Z (April 2021)
+
 Find the left and right lane markings in a dashcam frame and report where the vehicle sits in the lane. No learned weights.
 
 ## Pipeline

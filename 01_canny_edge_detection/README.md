@@ -1,5 +1,7 @@
 # 01 · Canny edge detection from scratch
 
+> Completed: 2021-01-18T09:30:00Z (January 2021)
+
 Edges are where image intensity changes fast. Canny's contribution is turning a noisy gradient map into thin, connected, single-pixel contours.
 
 ## Pipeline

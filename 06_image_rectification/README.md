@@ -1,5 +1,7 @@
 # 06 · Single-image rectification with homographies
 
+> Completed: 2021-06-17T13:20:00Z (June 2021)
+
 Undo perspective: a photo of a tiled floor (or a page, a road, a facade) becomes a fronto-parallel view where lengths and angles are meaningful again.
 
 ## Model

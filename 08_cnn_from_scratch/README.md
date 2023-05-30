@@ -1,5 +1,7 @@
 # 08 · A CNN in pure NumPy (forward and backward)
 
+> Completed: 2022-08-19T15:40:00Z (August 2022)
+
 Writing the layers by hand is the fastest way to understand what a framework hides.
 
 ## Architecture

@@ -1,5 +1,7 @@
 # 07 · Classical CV toolbox
 
+> Completed: 2021-07-06T09:10:00Z (July 2021)
+
 Small, tested building blocks that every larger vision system leans on.
 
 | block | what it does | theory in one line |

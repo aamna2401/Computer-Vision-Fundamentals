@@ -1,5 +1,7 @@
 # 02 · Harris corner detection from scratch
 
+> Completed: 2021-02-14T11:15:00Z (February 2021)
+
 A good feature is one you can find again in another view. Corners are good because shifting a window in *any* direction changes its content, unlike flat regions (no change) or edges (no change along the edge).
 
 ## Pipeline
