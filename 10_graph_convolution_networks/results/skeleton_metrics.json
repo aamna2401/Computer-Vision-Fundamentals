@@ -1,0 +1,59 @@
+{
+  "clips": 360,
+  "train": 251,
+  "test": 109,
+  "classes": [
+    "stand",
+    "walk",
+    "fall"
+  ],
+  "stgcn_test_acc": 1.0,
+  "mlp_test_acc": 0.908,
+  "stgcn_params": 96823,
+  "mlp_params": 258563,
+  "per_class_recall": {
+    "stgcn": {
+      "stand": 1.0,
+      "walk": 1.0,
+      "fall": 1.0
+    },
+    "mlp": {
+      "stand": 0.795,
+      "walk": 0.931,
+      "fall": 1.0
+    }
+  },
+  "joint_noise_test_acc": {
+    "0.03": {
+      "stgcn": 1.0,
+      "mlp": 0.883
+    },
+    "0.08": {
+      "stgcn": 0.933,
+      "mlp": 0.794
+    },
+    "0.15": {
+      "stgcn": 0.667,
+      "mlp": 0.75
+    }
+  },
+  "time_shift_frames_test_acc": {
+    "0": {
+      "stgcn": 1.0,
+      "mlp": 0.908
+    },
+    "4": {
+      "stgcn": 1.0,
+      "mlp": 0.89
+    },
+    "8": {
+      "stgcn": 1.0,
+      "mlp": 0.89
+    },
+    "16": {
+      "stgcn": 1.0,
+      "mlp": 0.826
+    }
+  },
+  "note": "synthetic data: demonstrates the architecture and its invariances, not real-world performance"
+}

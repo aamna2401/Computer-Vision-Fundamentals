@@ -1,0 +1,36 @@
+{
+  "identities_total": 120,
+  "images_total": 4315,
+  "classification": {
+    "classes": 30,
+    "train": 750,
+    "test": 330,
+    "chance": 0.033,
+    "scratch_cnn_test_acc": 0.615,
+    "raw_pixel_nn_acc": 0.467,
+    "pretrained_resnet18_centroid_acc": 0.485,
+    "pretrained_note": "ImageNet ResNet-18, nearest class centroid"
+  },
+  "verification": {
+    "train_identities": 84,
+    "unseen_test_identities": 36,
+    "test_pairs": 3000,
+    "results": {
+      "siamese (ours)": {
+        "AUC": 0.728,
+        "EER": 0.344,
+        "best_threshold_acc": 0.668
+      },
+      "raw pixels": {
+        "AUC": 0.575,
+        "EER": 0.45,
+        "best_threshold_acc": 0.568
+      },
+      "pretrained ResNet-18": {
+        "AUC": 0.66,
+        "EER": 0.38,
+        "best_threshold_acc": 0.631
+      }
+    }
+  }
+}

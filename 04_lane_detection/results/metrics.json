@@ -1,0 +1,37 @@
+{
+  "frames": 6,
+  "both_lanes_found": 4,
+  "ms_per_frame_960x540": 4.0,
+  "per_frame": {
+    "test1.jpg": {
+      "both_lanes_found": false,
+      "segments": 6,
+      "offset": null
+    },
+    "test2.jpg": {
+      "both_lanes_found": false,
+      "segments": 10,
+      "offset": null
+    },
+    "test3.jpg": {
+      "both_lanes_found": true,
+      "segments": 7,
+      "offset": -0.168
+    },
+    "test4.jpg": {
+      "both_lanes_found": true,
+      "segments": 9,
+      "offset": -0.05
+    },
+    "test5.jpg": {
+      "both_lanes_found": true,
+      "segments": 12,
+      "offset": -0.043
+    },
+    "test6.jpg": {
+      "both_lanes_found": true,
+      "segments": 14,
+      "offset": -0.102
+    }
+  }
+}
