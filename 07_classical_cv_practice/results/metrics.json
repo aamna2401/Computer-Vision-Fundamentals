@@ -1,0 +1,48 @@
+{
+  "laplacian_pyramid_reconstruction_max_abs_error": 0.0,
+  "ransac_vs_least_squares_slope_error": {
+    "0% outliers": {
+      "least_squares": 0.003,
+      "ransac": 0.003
+    },
+    "10% outliers": {
+      "least_squares": 0.079,
+      "ransac": 0.003
+    },
+    "20% outliers": {
+      "least_squares": 0.152,
+      "ransac": 0.003
+    },
+    "30% outliers": {
+      "least_squares": 0.242,
+      "ransac": 0.004
+    },
+    "40% outliers": {
+      "least_squares": 0.322,
+      "ransac": 0.005
+    },
+    "50% outliers": {
+      "least_squares": 0.424,
+      "ransac": 0.006
+    },
+    "60% outliers": {
+      "least_squares": 0.476,
+      "ransac": 0.006
+    }
+  },
+  "sift_ransac": {
+    "keypoints": [
+      2476,
+      3031
+    ],
+    "ratio_test_matches": 531,
+    "ransac_inliers": 511,
+    "inlier_ratio": 0.962,
+    "mean_homography_error_px": 0.107
+  },
+  "viola_jones_faces_found": 1,
+  "video": {
+    "frames": 100,
+    "foreground_fraction_mean_after_warmup": 0.0365
+  }
+}
